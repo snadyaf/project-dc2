@@ -1,11 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explicando o git</title>
+    <title>Enzo GameStore</title> <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    Explicando o git
+    <div class="logo"> <svg width="45" height="45" viewBox="0 0 100 100">
+            <defs>
+                <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#00f5ff" />
+                    <stop offset="100%" stop-color="#7c3aed" />
+                </linearGradient>
+            </defs> 
+            <!-- Fundo -->
+            <rect width="100" height="100" rx="20" fill="#020617" /> 
+            
+            <!-- Controle gamer -->
+            <path d="M30 60 Q50 40 70 60" stroke="url(#grad)" stroke-width="5" fill="none" />
+            <circle cx="40" cy="60" r="3" fill="#00f5ff" />
+            <circle cx="60" cy="60" r="3" fill="#7c3aed" />
+        </svg> <span class="logo-text"> Enzo <strong>GameStore</strong> </span> </div> <!-- HEADER -->
+    <header class="header"> <input type="text" id="searchInput" placeholder="Buscar jogos...">
+        <nav> <a href="#">Início</a> <a href="#">Loja</a> <a href="#">Promoções</a> <a href="#">Contato</a> </nav>
+    </header> <!-- HERO -->
+    <section class="hero">
+        <h1>Os melhores jogos pelo melhor preço</h1>
+        <p>Promoções exclusivas todos os dias</p> <button>Explorar Agora</button>
+    </section>
+    <div class="categories"> <button>Todos</button> <button>Ação</button> <button>FPS</button> <button>RPG</button>
+        <button>Esportes</button> </div>
+    
+    <!-- PRODUTOS -->
+
+    <main class="container">
+        <div class="card"> <img src="red.png">
+            <h3>Red Redemption 2</h3>
+            <p class="price">R$ 149,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="cyberpunk.png">
+            <h3>Cyberpunk 2077</h3>
+            <p class="price">R$ 129,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="fortnite.png">
+            <h3>Fortnite</h3>
+            <p class="price">R$ 199,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="god.png">
+            <h3>God of War</h3>
+            <p class="price">R$ 199,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="spiderman.png">
+            <h3>Spider-Man</h3>
+            <p class="price">R$ 249,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="valorant.png">
+            <h3>Valorant</h3>
+            <p class="price">R$ 249,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="elden ing.png">
+            <h3>Elden Ring</h3>
+            <p class="price">R$ 229,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="hogwarts.png">
+            <h3>Hogwarts Legacy</h3>
+            <p class="price">R$ 219,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="gta.png">
+            <h3>GTA VI</h3>
+            <p class="price">R$ 79,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="fifa24.png">
+            <h3>FIFA 24</h3>
+            <p class="price">R$ 199,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="Call.png">
+            <h3>Call of Duty</h3>
+            <p class="price">R$ 249,90</p> <button>Comprar</button>
+        </div>
+        <div class="card"> <img src="minecraft.png">
+            <h3>Minecraft</h3>
+            <p class="price">R$ 99,90</p> <button>Comprar</button>
+        </div>
+    </main> <!-- CONTATO -->
+    <section class="contato">
+        <h2>Entre em Contato</h2>
+        <p>Tem dúvidas ou sugestões? Fale com a gente!</p>
+        <form class="form-contato"> <input type="text" placeholder="Seu nome" required> <input type="email"
+                placeholder="Seu email" required> <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar Mensagem</button> </form>
+    </section> <!-- RODAPÉ -->
+    <footer>
+        <div class="payments">
+            <h4>Formas de Pagamento</h4>
+            <div class="payment-icons"> <img src="pagamentos.png" alt="Visa"> </div>
+        </div>
+        <p>© 2026 Enzo GameStore</p>
+    </footer>
 </body>
+
 </html>
